@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/akarys92/callitaday/issues"
   },
-  "homepage": "https://github.com/akarys92/callitaday#readme"
+  "homepage": "https://github.com/akarys92/callitaday#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.1",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
 }
