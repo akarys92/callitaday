@@ -3,6 +3,6 @@ var router = express.Router();
 
 var messageCtrl = require('../controllers/message.controller');
 
-router.get('/all', messageCtrl.HelloWorld);
+router.post('/', messageCtrl.CreateMessage);
 
 module.exports = router;

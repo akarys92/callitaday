@@ -4,7 +4,7 @@
   "description": "Service for managing calls in Call It a Day!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --debug server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,19 @@
   },
   "homepage": "https://github.com/akarys92/callitaday#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.12.1",
     "querystring": "^0.2.0",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1"
   }
 }
